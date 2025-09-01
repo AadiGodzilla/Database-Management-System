@@ -1,4 +1,4 @@
-use db_bca;     -- Use 'db_bca' database
+USE db_bca;     -- Use 'db_bca' database
 
 -- Create table 'vehicles' with attributes id, brand
 CREATE TABLE vehicles(
