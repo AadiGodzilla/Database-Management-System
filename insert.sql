@@ -54,7 +54,6 @@ CREATE TABLE Detail(
 
 INSERT INTO Detail(id, age) VALUES(101, 23);                        -- Causes error because 'name' is not provided
 INSERT INTO Detail(id, name, age) VALUES(101, "Aadikshar" 23);      -- Passes because 'name' is provided
-ALTER TABLE Employee ADD COLUMN department VARCHAR(20);             -- Add a new attribute 'department' in the employee
 DESC employee;          -- Describe Attributes of the table 'Employee'
 DROP TABLE details;     -- Delete table named 'details' with all its records and attributes
 DROP DATABASE test      -- Delete Database named 'test' with all its tables, views and schemas
